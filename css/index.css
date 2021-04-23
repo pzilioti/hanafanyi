@@ -1,0 +1,46 @@
+.custom-header{
+    font-size: 5em;
+}
+
+@media screen and (max-width: 768px) {
+    .custom-header {
+        font-size: 3em;
+    }
+}
+
+
+
+.rectangle {
+    width: 15rem;
+    height: 2.5rem;
+    background: #ff6570;
+}
+
+.rectangle-small {
+    width: 16rem;
+    height: 0.6rem;
+    background: #ff6570;
+}
+
+@media screen and (max-width: 768px) {
+    .rectangle-small {
+        width: 10rem;
+    }
+}
+
+.image-circle {
+    border-radius: 50% !important;
+    border-color: #ff6570;
+}
+
+.custom-background{
+    background-color: #ff6570;
+}
+
+.color-blue{
+    background-color: #5665ff;
+}
+
+.small-size{
+    font-size: 0.8rem;
+}

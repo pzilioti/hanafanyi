@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Paolo"
+		],
+		"last-updated": "2021-04-22",
+		"locale": "pt"
+	},
+	"portfolio": "Portfolio",
+	"home": "Inicio",
+	"experience" : "Experiências",
+	"language" : "Idioma",
+	"home-title" : "Serviço de Tradução",
+	"name-paolo": "Paolo",
+	"p-1": "Falante nativo de português",
+	"p-2": "Fluente em Inglês e Italiano",
+	"p-3": "Estudou Chinês por mais de 5 anos",
+	"name-alice": "Alice",
+	"a-1" :"Falante nativa de Mandarim",
+	"a-2" :"Fluente em Português e Italiano",
+	"a-3" :"Bons conhecimentos em Inglês",
+	"description": "Nós fazemos traduções profissionais entre português e chinês. Somos nativos em ambos os idiomas, então o resultado é garantido",
+	"contact": "Contato",
+	"form-name": "Nome",
+	"form-email": "Email",
+	"form-comment": "Comentário",
+	"form-send": "Enviar",
+	"credits": "Desenvolvido por Paolo",
+	"chinese-italian": "Chinês - Italiano",
+	"brochures": "Tradução de pamfletos de pontos turísticos da China de chinês para italiano.",
+	"chinese-portuguese": "Chinês - Português",
+	"tv-shows": "Traduções de episódios de diversas series chinesas para o português.",
+	"translation-documents": "Tradução de documentos nas duas direções.",
+	"translation-chat": "Traduções de mensagens de chat de português para chinês.",
+	"chinese-english": "Chinês - Inglês",
+	"translation-documents-english": "Tradução de documentos do inglês para o chinês."
+
+}

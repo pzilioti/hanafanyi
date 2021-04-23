@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"Paolo",
+			"Alice"
+		],
+		"last-updated": "2021-04-22",
+		"locale": "cn"
+	},
+	"portfolio": "资产组合",
+	"home": "开始",
+	"experience" : "经验",
+	"language" : "语言",
+	"home-title" : "翻译服务",
+	"name-paolo": "保罗",
+	"p-1": "葡萄牙语母语者",
+	"p-2": "流利得说英语和意大利语",
+	"p-3": "学习中文五年多了",
+	"name-alice": "林思望",
+	"a-1": "普通话母语者",
+	"a-2": "流利得说葡萄牙语和意大利语",
+	"a-3": "了解英语",
+	"description": "我们可以翻译葡萄牙语和中文。两个语言有母语者翻译，质量保证很好",
+	"contact": "联系我们",
+	"form-name": "名字",
+	"form-email": "邮件",
+	"form-comment": "议论",
+	"form-send": "发",
+	"credits": "保罗开发",
+	"chinese-italian": "中文 - 意大利语",
+	"brochures": "翻译中国景点简册从中文成意大利语",
+	"chinese-portuguese": "中文 - 葡萄牙语",
+	"tv-shows": "翻译电视剧集从中文成葡萄牙语",
+	"translation-documents": "翻译文章成中文和葡萄牙语",
+	"translation-chat": "翻译日常聊天的葡萄牙语对话",
+	"chinese-english": "中文 - 英语",
+	"translation-documents-english": "翻译文章从英语成中文"
+}

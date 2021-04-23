@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/lib/bootstrap.min.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <title data-i18n="portfolio">Portfolio</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
+
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="#">
+                <img src="img/translation-svgrepo-com.svg" alt="" width="50" height="50">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="/" data-i18n="home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="experience.html" data-i18n="experience">Experiences</a>
+                    </li>
+
+                </ul>
+
+                <li class="nav-item dropdown d-flex">
+                    <a class="nav-link dropdown-toggle text-secondary" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false" data-i18n="language">
+                        Language
+                    </a>
+                    <ul class="dropdown-menu switch-locale" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item " href="#" data-locale="cn"><img src="img/china-svgrepo-com.svg"
+                                    width="22" height="20" alt="Chinese" />中文</a></li>
+                        <li><a class="dropdown-item" href="#" data-locale="pt"><img src="img/brazil-svgrepo-com.svg"
+                                    width="22" height="20" alt="Portuguese" />Português</a></li>
+                        <li><a class="dropdown-item" href="#" data-locale="en"><img
+                                    src="img/united-states-svgrepo-com.svg" width="22" height="20"
+                                    alt="English" />English</a></li>
+                    </ul>
+                </li>
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid bg-light">
+        <!-- header -->
+        <div class="row justify-content-center pt-3">
+            <div class="col-sm-4 offset-sm-1">
+                <div class="rectangle w-100"></div>
+                <h1 class="custom-header" data-i18n="experience">Experiences</h1>
+                <p data-i18n="description">We provide prefessional translations between portuguese and chinese. With
+                    native speakers from both
+                    languages, the result is guaranteed to be accurate</p>
+            </div>
+
+            <div class="col-sm-4 offset-sm-3">
+                <img src="img/portfolio-svgrepo-com.svg" class="img-fluid h-75" alt="Experience" />
+            </div>
+
+        </div>
+    </div> <!-- header -->
+
+
+
+    <div class="container py-3">
+
+        <div class="row justify-content-evenly">
+            <!-- experiences-->
+
+            <div class="card col-md-3 col-10 my-3">
+                <div class="card-header color-blue"></div>
+                <div class="card-body">
+                    <h5 class="card-title" data-i18n="chinese-italian">Chinese - Italian</h5>
+                    <p class="card-text" data-i18n="brochures">Translation of brochures of Chinese touristic spots from chinese to Italian.
+                    </p>
+                </div>
+            </div>
+
+            <div class="card col-md-3 col-10 my-3">
+                <div class="card-header color-blue"></div>
+                <div class="card-body">
+                    <h5 class="card-title" data-i18n="chinese-portuguese">Chinese - Portuguese</h5>
+                    <p class="card-text" data-i18n="tv-shows">Translation of several TV shows episodes from Chinese to Portuguese.</p>
+                </div>
+            </div>
+
+            <div class="card col-md-3 col-10 my-3">
+                <div class="card-header color-blue"></div>
+                <div class="card-body">
+                    <h5 class="card-title" data-i18n="chinese-portuguese">Chinese - Portuguese</h5>
+                    <p class="card-text" data-i18n="translation-documents">Translation of documents in both directions.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-evenly">
+
+            <div class="card col-md-3 col-10 my-3">
+                <div class="card-header color-blue"></div>
+                <div class="card-body">
+                    <h5 class="card-title" data-i18n="chinese-portuguese">Chinese - Portuguese</h5>
+                    <p class="card-text" data-i18n="translation-chat">Translation of everyday instant messaging chat from Portuguese to Chinese.</p>
+                </div>
+            </div>
+
+            <div class="card col-md-3 col-10 my-3">
+                <div class="card-header color-blue"></div>
+                <div class="card-body">
+                    <h5 class="card-title" data-i18n="chinese-english">Chinese - English</h5>
+                    <p class="card-text" data-i18n="translation-documents-english">Translation of documents from English to Chinese.</p>
+                </div>
+            </div>
+
+        </div><!-- experiences-->
+
+        <form class="row text-white mt-3 custom-background">
+            <!-- form -->
+            <h2 data-i18n="contact">Contact Us</h2>
+
+            <div class="col-sm-6">
+                <div class="row">
+                    <div class="col-12">
+                        <label for="inputName" class="form-label" data-i18n="form-name">Name</label>
+                        <input type="text" class="form-control" id="inputName">
+                    </div>
+
+                    <div class="col-12">
+                        <label for="inputEmail" class="form-label" data-i18n="form-email">Email</label>
+                        <input type="email" class="form-control" id="inputEmail">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-6">
+                <label for="floatingTextarea" data-i18n="form-comment">Comments</label>
+                <textarea class="form-control" id="floatingTextarea"></textarea>
+            </div>
+
+            <div class="col-12 my-3">
+                <button type="submit" class="btn btn-primary color-blue" data-i18n="form-send">Send</button>
+            </div>
+        </form> <!-- form -->
+
+    </div> <!-- content -->
+
+
+
+    <div class="container-fluid bg-light pt-3">
+        <!-- footer -->
+        <div class="row justify-content-center">
+            <div class="col">
+                <p class="text-muted small-size" data-i18n="credits">Developed by Paolo</p>
+            </div>
+        </div>
+    </div><!-- footer -->
+
+
+    <script src="js/lib/bootstrap.bundle.min.js"></script>
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/CLDRPluralRuleParser.js"></script>
+    <script src="js/lib/jquery.i18n.js"></script>
+    <script src="js/lib/jquery.i18n.messagestore.js"></script>
+    <script src="js/lib/jquery.i18n.fallbacks.js"></script>
+    <script src="js/lib/jquery.i18n.language.js"></script>
+    <script src="js/lib/jquery.i18n.parser.js"></script>
+    <script src="js/lib/jquery.i18n.emitter.js"></script>
+    <script src="js/lib/jquery.i18n.emitter.bidi.js"></script>
+    <script src="js/lib/jquery.history.js"></script>
+    <script src="js/lib/url.min.js"></script>
+    <script src="js/global.js"></script>
+</body>
+
+</html>

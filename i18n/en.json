@@ -1,0 +1,37 @@
+{
+	"@metadata": {
+		"authors": [
+			"Paolo"
+		],
+		"last-updated": "2021-04-22",
+		"locale": "pt"
+	},
+	"portfolio": "Portfolio",
+	"home": "Home",
+	"experience" : "Experiences",
+	"language" : "Language",
+	"home-title" : "Translation Services",
+	"name-paolo": "Paolo",
+	"p-1": "Portuguese native speaker",
+	"p-2": "Fluent both in English and Italian",
+	"p-3": "Studied Chinese for more than 5 years",
+	"name-alice": "Alice",
+	"a-1" :"Mandarim chinese native speaker",
+	"a-2" :"Fluent both in Portuguese and Italian",
+	"a-3" :"Good knowledge of English",
+	"description": "We provide prefessional translations between portuguese and chinese. With native speakers from both languages, the result is guaranteed to be accurate",
+	"contact": "Contact Us",
+	"form-name": "Name",
+	"form-email": "Email",
+	"form-comment": "Comments",
+	"form-send": "Send",
+	"credits": "Developed by Paolo",
+	"chinese-italian": "Chinese - Italian",
+	"brochures": "Translation of brochures of Chinese touristic spots from chinese to Italian.",
+	"chinese-portuguese": "Chinese - Portuguese",
+	"tv-shows": "Translation of several TV shows episodes from Chinese to Portuguese.",
+	"translation-documents": "Translation of documents in both directions.",
+	"translation-chat": "Translation of everyday instant messaging chat from Portuguese to Chinese.",
+	"chinese-english": "Chinese - English",
+	"translation-documents-english": "Translation of documents from English to Chinese."
+}
